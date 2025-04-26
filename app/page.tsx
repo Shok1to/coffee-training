@@ -58,13 +58,13 @@ export default function Home() {
           </nav>
           <div className="hidden space-x-4 md:flex">
             <Link
-              href="#"
+              href="https://www.instagram.com/barista_blueprint"
               className="text-gray-300 transition-colors hover:text-amber-400"
             >
               <FaInstagram className="h-5 w-5" />
             </Link>
             <Link
-              href="#"
+              href="https://www.tiktok.com/@barista_blueprint"
               className="text-gray-300 transition-colors hover:text-amber-400"
             >
               <SiTiktok className="h-5 w-5" />
