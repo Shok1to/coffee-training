@@ -515,21 +515,21 @@ const courses = [
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Sagun Kc",
     role: "Café Owner",
     avatar: "/serene-gaze.png",
     quote:
       "The training I received at Shokolatte completely transformed my coffee skills. The hands-on approach and expert instruction gave me the confidence to excel in my own café.",
   },
   {
-    name: "Michael Chen",
+    name: "Beatrice Marchiotto",
     role: "Home Enthusiast",
     avatar: "/thoughtful-gaze.png",
     quote:
       "After completing the barista fundamentals course, I can now make café-quality coffee at home. The techniques I learned have completely changed my morning routine.",
   },
   {
-    name: "Emma Rodriguez",
+    name: "Victor Greggain",
     role: "Aspiring Barista",
     avatar: "/serene-latina.png",
     quote:
