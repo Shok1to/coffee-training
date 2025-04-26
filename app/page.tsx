@@ -343,8 +343,8 @@ export default function Home() {
               </h2>
               <div className="mx-auto mt-4 h-1 w-16 bg-amber-400"></div>
             </div>
-            <div className="grid gap-12 md:grid-cols-2">
-              <div>
+            <div className="flex justify-center">
+              <div className="w-full max-w-2xl">
                 <form className="space-y-6">
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
@@ -409,33 +409,6 @@ export default function Home() {
                   </Button>
                 </form>
               </div>
-              <div className="space-y-8">
-                <div>
-                  <h3 className="mb-4 text-xl font-bold text-white">
-                    Contact Information
-                  </h3>
-                  <div className="text-gray-300">
-                    <p>
-                      Email:{" "}
-                      <a
-                        href="mailto:info@shokolatte.com"
-                        className="text-yellow-400 hover:underline"
-                      >
-                        info@shokolatte.com
-                      </a>
-                    </p>
-                    <p className="mt-4 text-sm text-gray-400 italic">
-                      I currently offer barista training at partner cafes and
-                      client locations. I’m also open to freelance web projects
-                      — especially in the coffee space.
-                    </p>
-                    <p className="mt-2 text-sm text-gray-400 italic">
-                      Let’s connect to talk training, collaboration, or your
-                      website idea!
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -457,6 +430,26 @@ export default function Home() {
                 <span className="text-xs uppercase tracking-wider text-amber-400">
                   MASTER YOUR COFFEE SKILLS
                 </span>
+                <div className="text-gray-300">
+                  <p>
+                    Email:{" "}
+                    <a
+                      href="mailto:info@shokolatte.com"
+                      className="text-yellow-400 hover:underline"
+                    >
+                      info@shokolatte.com
+                    </a>
+                  </p>
+                  <p className="mt-4 text-sm text-gray-400 italic">
+                    I currently offer barista training at partner cafes and
+                    client locations. I’m also open to freelance web projects —
+                    especially in the coffee space.
+                  </p>
+                  <p className="mt-2 text-sm text-gray-400 italic">
+                    Let’s connect to talk training, collaboration, or your
+                    website idea!
+                  </p>
+                </div>
               </div>
             </div>
             <div className="flex space-x-6">
