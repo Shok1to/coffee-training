@@ -218,32 +218,11 @@ export default function Home() {
                 </Link>
               </div>
               <div className="grid grid-cols-2 gap-4">
-                <div className="overflow-hidden rounded-lg">
-                  <img
-                    src="/about-coffee-1.jpg"
-                    alt="Coffee beans"
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="overflow-hidden rounded-lg">
-                  <img
-                    src="/about-coffee-2.jpg"
-                    alt="Coffee brewing"
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="overflow-hidden rounded-lg">
+                <div className="w-full md:w-[500px] mx-auto">
                   <img
                     src="/about-coffee-3.jpg"
                     alt="Espresso machine"
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="overflow-hidden rounded-lg">
-                  <img
-                    src="/about-coffee-4.jpg"
-                    alt="Latte art"
-                    className="h-full w-full object-cover"
+                    className="w-full rounded-xl object-cover"
                   />
                 </div>
               </div>
