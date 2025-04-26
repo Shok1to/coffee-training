@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
+import { FaInstagram, FaYoutube } from "react-icons/fa"
+import { SiTiktok } from "react-icons/si"
 
 import { Button } from "@/components/ui/button"
 
@@ -31,10 +32,10 @@ export default function Home() {
               About us
             </Link>
             <Link
-              href="#courses"
+              href="#training"
               className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
             >
-              Courses
+              Training
             </Link>
             <Link
               href="#gallery"
@@ -60,25 +61,19 @@ export default function Home() {
               href="#"
               className="text-gray-300 transition-colors hover:text-amber-400"
             >
-              <Facebook className="h-5 w-5" />
+              <FaInstagram className="h-5 w-5" />
             </Link>
             <Link
               href="#"
               className="text-gray-300 transition-colors hover:text-amber-400"
             >
-              <Instagram className="h-5 w-5" />
+              <SiTiktok className="h-5 w-5" />
             </Link>
             <Link
               href="#"
               className="text-gray-300 transition-colors hover:text-amber-400"
             >
-              <Twitter className="h-5 w-5" />
-            </Link>
-            <Link
-              href="#"
-              className="text-gray-300 transition-colors hover:text-amber-400"
-            >
-              <Youtube className="h-5 w-5" />
+              <FaYoutube className="h-5 w-5" />
             </Link>
           </div>
           <Button
@@ -136,10 +131,10 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="mb-16 text-center">
               <span className="font-serif text-xl italic text-amber-400">
-                Courses
+                Modern techniques. Real-world skills.
               </span>
               <h2 className="mt-2 text-4xl font-bold uppercase tracking-wider text-white">
-                OUR COURSES
+                Hands-On Coffee Training
               </h2>
               <div className="mx-auto mt-4 h-1 w-16 bg-amber-400"></div>
             </div>
@@ -417,29 +412,27 @@ export default function Home() {
               <div className="space-y-8">
                 <div>
                   <h3 className="mb-4 text-xl font-bold text-white">
-                    Our Location
-                  </h3>
-                  <p className="text-gray-400">
-                    123 Coffee Street, Brewville, CA 94123
-                  </p>
-                </div>
-                <div>
-                  <h3 className="mb-4 text-xl font-bold text-white">
                     Contact Information
                   </h3>
-                  <div className="space-y-2 text-gray-400">
-                    <p>Email: info@shokolatte.com</p>
-                    <p>Phone: (555) 123-4567</p>
-                  </div>
-                </div>
-                <div>
-                  <h3 className="mb-4 text-xl font-bold text-white">
-                    Hours of Operation
-                  </h3>
-                  <div className="space-y-2 text-gray-400">
-                    <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                    <p>Saturday: 9:00 AM - 5:00 PM</p>
-                    <p>Sunday: Closed</p>
+                  <div className="text-gray-300">
+                    <p>
+                      Email:{" "}
+                      <a
+                        href="mailto:info@shokolatte.com"
+                        className="text-yellow-400 hover:underline"
+                      >
+                        info@shokolatte.com
+                      </a>
+                    </p>
+                    <p className="mt-4 text-sm text-gray-400 italic">
+                      I currently offer barista training at partner cafes and
+                      client locations. I’m also open to freelance web projects
+                      — especially in the coffee space.
+                    </p>
+                    <p className="mt-2 text-sm text-gray-400 italic">
+                      Let’s connect to talk training, collaboration, or your
+                      website idea!
+                    </p>
                   </div>
                 </div>
               </div>
@@ -468,28 +461,28 @@ export default function Home() {
             </div>
             <div className="flex space-x-6">
               <Link
-                href="#"
+                href="https://www.instagram.com/barista_blueprint"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 transition-colors hover:text-amber-400"
               >
-                <Facebook className="h-5 w-5" />
+                <FaInstagram className="h-5 w-5" />
               </Link>
+
+              <Link
+                href="https://www.tiktok.com/@barista_blueprint"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 transition-colors hover:text-amber-400"
+              >
+                <SiTiktok className="h-5 w-5" />
+              </Link>
+
               <Link
                 href="#"
                 className="text-gray-400 transition-colors hover:text-amber-400"
               >
-                <Instagram className="h-5 w-5" />
-              </Link>
-              <Link
-                href="#"
-                className="text-gray-400 transition-colors hover:text-amber-400"
-              >
-                <Twitter className="h-5 w-5" />
-              </Link>
-              <Link
-                href="#"
-                className="text-gray-400 transition-colors hover:text-amber-400"
-              >
-                <Youtube className="h-5 w-5" />
+                <FaYoutube className="h-5 w-5" />
               </Link>
             </div>
           </div>
