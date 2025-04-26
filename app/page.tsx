@@ -499,8 +499,9 @@ const courses = [
   },
   {
     id: 2,
-    title: "Latte Art Mastery",
-    description: "Create beautiful designs that will impress your customers",
+    title: "Latte Art Fun Workshop",
+    description:
+      "Love coffee? Come play with milk and espresso! This casual, hands-on workshop is perfect for anyone who wants to try latte art and have a great time, no skills required.",
     image: "/course-latte-art.jpg",
     price: 399,
   },
@@ -515,21 +516,21 @@ const courses = [
 
 const testimonials = [
   {
-    name: "Sagun Kc",
+    name: "Sagun",
     role: "Café Owner",
     avatar: "/serene-gaze.png",
     quote:
       "The training I received at Shokolatte completely transformed my coffee skills. The hands-on approach and expert instruction gave me the confidence to excel in my own café.",
   },
   {
-    name: "Beatrice Marchiotto",
+    name: "Beatrice",
     role: "Home Enthusiast",
     avatar: "/thoughtful-gaze.png",
     quote:
       "After completing the barista fundamentals course, I can now make café-quality coffee at home. The techniques I learned have completely changed my morning routine.",
   },
   {
-    name: "Victor Greggain",
+    name: "Nicole",
     role: "Aspiring Barista",
     avatar: "/serene-latina.png",
     quote:
