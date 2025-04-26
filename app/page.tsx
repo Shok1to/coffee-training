@@ -498,9 +498,10 @@ export default function Home() {
 const courses = [
   {
     id: 1,
-    title: "Barista Fundamentals",
-    description: "Master the essential skills every barista needs to know",
-    image: "/course-barista.png",
+    title: "Barista Training for Café & Restaurant",
+    description:
+      "Help your team serve better coffee—fast. This course covers all the basics your staff need to make coffee confidently and keep customers coming back.",
+    image: "/restaurant.jpeg",
     price: 599,
   },
   {

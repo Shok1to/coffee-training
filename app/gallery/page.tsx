@@ -8,10 +8,18 @@ export default function GalleryPage() {
       <header className="bg-black py-6">
         <div className="container mx-auto px-4">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/coffee-bean-logo.png" alt="Barista Blueprint Logo" className="h-8 w-8" />
+            <img
+              src="/coffee-bean-logo.png"
+              alt="Barista Blueprint Logo"
+              className="h-8 w-8"
+            />
             <div className="flex flex-col">
-              <span className="text-base font-bold uppercase tracking-wider text-white">BARISTA BLUEPRINT</span>
-              <span className="text-xs uppercase tracking-wider text-amber-400">MASTER YOUR COFFEE SKILLS</span>
+              <span className="text-base font-bold uppercase tracking-wider text-white">
+                BARISTA BLUEPRINT
+              </span>
+              <span className="text-xs uppercase tracking-wider text-amber-400">
+                MASTER YOUR COFFEE SKILLS
+              </span>
             </div>
           </Link>
         </div>
@@ -19,10 +27,16 @@ export default function GalleryPage() {
 
       <main className="flex-1">
         <div className="relative h-[40vh] w-full">
-          <img src="/latte-art-moment.png" alt="Latte Art" className="h-full w-full object-cover" />
+          <img
+            src="/latte-art-moment.png"
+            alt="Latte Art"
+            className="h-full w-full object-cover"
+          />
           <div className="absolute inset-0 bg-black/60"></div>
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-4xl font-bold uppercase tracking-wider text-white md:text-5xl">STUDENT GALLERY</h1>
+            <h1 className="text-4xl font-bold uppercase tracking-wider text-white md:text-5xl">
+              STUDENT GALLERY
+            </h1>
           </div>
         </div>
 
@@ -36,11 +50,14 @@ export default function GalleryPage() {
           </div>
 
           <div className="mb-12 max-w-3xl">
-            <h2 className="mb-4 text-3xl font-bold text-white">Student Showcase</h2>
+            <h2 className="mb-4 text-3xl font-bold text-white">
+              Student Showcase
+            </h2>
             <p className="text-gray-400">
-              Our students create amazing coffee art and master professional techniques. Here's an expanded showcase of
-              their work and training sessions. We're proud of the skills our students develop during their time with
-              us.
+              Our students create amazing coffee art and master professional
+              techniques. Here's an expanded showcase of their work and training
+              sessions. We're proud of the skills our students develop during
+              their time with us.
             </p>
           </div>
 
@@ -60,7 +77,11 @@ export default function GalleryPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                   <div className="absolute bottom-0 left-0 w-full p-4 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <p className="text-sm font-medium">{image.alt}</p>
-                    {image.student && <p className="text-xs text-amber-400">By {image.student}</p>}
+                    {image.student && (
+                      <p className="text-xs text-amber-400">
+                        By {image.student}
+                      </p>
+                    )}
                   </div>
                 </div>
               ))}
@@ -68,7 +89,9 @@ export default function GalleryPage() {
           </div>
 
           <div className="mb-16">
-            <h3 className="mb-6 text-2xl font-bold text-white">Training Sessions</h3>
+            <h3 className="mb-6 text-2xl font-bold text-white">
+              Training Sessions
+            </h3>
             <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
               {trainingImages.map((image, index) => (
                 <div
@@ -91,10 +114,15 @@ export default function GalleryPage() {
           </div>
 
           <div>
-            <h3 className="mb-6 text-2xl font-bold text-white">Student Success Stories</h3>
+            <h3 className="mb-6 text-2xl font-bold text-white">
+              Student Success Stories
+            </h3>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {successStories.map((story, index) => (
-                <div key={index} className="rounded-lg bg-gray-900 p-6 shadow-lg">
+                <div
+                  key={index}
+                  className="rounded-lg bg-gray-900 p-6 shadow-lg"
+                >
                   <div className="mb-4 flex items-center gap-4">
                     <img
                       src={story.avatar || "/placeholder.svg"}
@@ -109,8 +137,12 @@ export default function GalleryPage() {
                   <p className="mb-4 italic text-gray-400">"{story.quote}"</p>
                   {story.achievement && (
                     <div className="rounded-md bg-gray-800 p-3">
-                      <p className="text-sm font-medium text-white">Achievement:</p>
-                      <p className="text-sm text-gray-400">{story.achievement}</p>
+                      <p className="text-sm font-medium text-white">
+                        Achievement:
+                      </p>
+                      <p className="text-sm text-gray-400">
+                        {story.achievement}
+                      </p>
                     </div>
                   )}
                 </div>
@@ -120,7 +152,9 @@ export default function GalleryPage() {
 
           <div className="mt-12 flex justify-center">
             <Link href="/#courses">
-              <Button className="bg-amber-400 text-gray-900 hover:bg-amber-500">Explore Our Courses</Button>
+              <Button className="bg-amber-400 text-gray-900 hover:bg-amber-500">
+                Explore Our Courses
+              </Button>
             </Link>
           </div>
         </div>
@@ -128,7 +162,9 @@ export default function GalleryPage() {
 
       <footer className="bg-black py-8 text-white">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-gray-500">© 2023 Barista Blueprint. All rights reserved.</p>
+          <p className="text-sm text-gray-500">
+            © 2023 Barista Blueprint. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
@@ -226,14 +262,16 @@ const successStories = [
     course: "Coffee Roasting",
     quote:
       "After completing the roasting course, I started my own small-batch roasting business. The knowledge I gained about bean selection and roast profiles was invaluable.",
-    achievement: "Founded 'Chen's Micro Roastery' now supplying to 5 local cafés",
+    achievement:
+      "Founded 'Chen's Micro Roastery' now supplying to 5 local cafés",
   },
   {
     name: "Sarah Johnson",
-    avatar: "/serene-gaze.png",
+    avatar: "/restaurant.jpeg",
     course: "Barista Fundamentals",
     quote:
       "The training I received at Barista Blueprint completely transformed my coffee skills. The hands-on approach and expert instruction gave me the confidence to excel.",
-    achievement: "Promoted to Head Barista at Café Noir within 3 months of completing the course",
+    achievement:
+      "Promoted to Head Barista at Café Noir within 3 months of completing the course",
   },
 ]
