@@ -420,7 +420,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0">
             <div className="flex items-center gap-2">
               <img
-                src="/shokolatte-small.png"
+                src="/Shokolatte-small.png"
                 alt="Shokolatte Logo"
                 className="w-[160px] mt-[-5px] drop-shadow-md"
               />
