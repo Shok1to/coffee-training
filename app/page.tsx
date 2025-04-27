@@ -549,33 +549,13 @@ const galleryImages = [
     student: "Michael C.",
   },
   {
-    src: "/gallery/latte-art-3.png",
-    alt: "Heart Latte Art",
-    student: "Sarah J.",
-  },
-  {
     src: "/Victor.jpg",
     alt: "Tulip Latte Art",
     student: "Victor G.",
   },
   {
-    src: "/gallery/latte-art-4.png",
-    alt: "Swan Latte Art",
-    student: "David L.",
-  },
-  {
     src: "/Jasmine.jpeg",
     alt: "Swan Latte Art",
     student: "Jasmine P.",
-  },
-  {
-    src: "/gallery/latte-art-5.png",
-    alt: "Phoenix Latte Art",
-    student: "Jessica T.",
-  },
-  {
-    src: "/gallery/barista-training-3.jpg",
-    alt: "Coffee Cupping Session",
-    student: null,
   },
 ]
