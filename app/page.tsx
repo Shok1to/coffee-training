@@ -8,54 +8,55 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-gray-950 text-gray-200">
       <header className="absolute top-0 z-50 w-full">
-        <div className="container mx-auto flex h-20 items-center justify-between px-4">
-          <Link href="/" className="flex items-center gap-2">
-            <img
-              src="/coffee-bean-logo.png"
-              alt="Shokolatte Logo"
-              className="h-10 w-10"
-            />
-            <div className="flex flex-col">
-              <span className="text-lg font-bold uppercase tracking-wider text-white">
-                SHOKOLATTE
-              </span>
-              <span className="text-xs uppercase tracking-wider text-amber-400">
-                MASTER YOUR COFFEE SKILLS
-              </span>
+        <div className="flex items-center justify-between px-4 py-2">
+          <Link href="/">
+            <div className="-mt-3">
+              {" "}
+              {/* move only logo */}
+              <img
+                src="/Shokolatte-small.png"
+                alt="Shokolatte Logo"
+                className="h-[15rem] w-auto drop-shadow-md"
+              />
             </div>
           </Link>
-          <nav className="hidden md:flex md:gap-8">
-            <Link
-              href="#about"
-              className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
-            >
-              About us
-            </Link>
-            <Link
-              href="#training"
-              className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
-            >
-              Training
-            </Link>
-            <Link
-              href="#gallery"
-              className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
-            >
-              Gallery
-            </Link>
-            <Link
-              href="#testimonials"
-              className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
-            >
-              Testimonials
-            </Link>
-            <Link
-              href="#contact"
-              className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
-            >
-              Contacts
-            </Link>
-          </nav>
+
+          <div className="mt-8">
+            {" "}
+            {/* move only nav */}
+            <nav className="hidden md:flex md:gap-8">
+              <Link
+                href="#about"
+                className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
+              >
+                About us
+              </Link>
+              <Link
+                href="#training"
+                className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
+              >
+                Training
+              </Link>
+              <Link
+                href="#gallery"
+                className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
+              >
+                Gallery
+              </Link>
+              <Link
+                href="#testimonials"
+                className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
+              >
+                Testimonials
+              </Link>
+              <Link
+                href="#contact"
+                className="text-sm font-medium uppercase tracking-wider text-gray-300 transition-colors hover:text-amber-400"
+              >
+                Contacts
+              </Link>
+            </nav>
+          </div>
           <div className="hidden space-x-4 md:flex">
             <Link
               href="https://www.instagram.com/barista_blueprint"
@@ -419,17 +420,11 @@ export default function Home() {
           <div className="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0">
             <div className="flex items-center gap-2">
               <img
-                src="/coffee-bean-logo.png"
+                src="/shokolatte-small.png"
                 alt="Shokolatte Logo"
-                className="h-10 w-10"
+                className="w-[160px] mt-[-5px] drop-shadow-md"
               />
               <div className="flex flex-col">
-                <span className="text-lg font-bold uppercase tracking-wider text-white">
-                  SHOKOLATTE
-                </span>
-                <span className="text-xs uppercase tracking-wider text-amber-400">
-                  MASTER YOUR COFFEE SKILLS
-                </span>
                 <div className="text-gray-300">
                   <p>
                     Email:{" "}

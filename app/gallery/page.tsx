@@ -88,68 +88,6 @@ export default function GalleryPage() {
             </div>
           </div>
 
-          <div className="mb-16">
-            <h3 className="mb-6 text-2xl font-bold text-white">
-              Training Sessions
-            </h3>
-            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-              {trainingImages.map((image, index) => (
-                <div
-                  key={index}
-                  className="group relative aspect-video overflow-hidden rounded-lg shadow-md transition-all hover:shadow-xl hover:shadow-amber-900/20"
-                >
-                  <img
-                    src={image.src || "/placeholder.svg"}
-                    alt={image.alt}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-                  <div className="absolute bottom-0 left-0 w-full p-4 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                    <p className="text-sm font-medium">{image.alt}</p>
-                    <p className="text-xs text-gray-300">{image.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <h3 className="mb-6 text-2xl font-bold text-white">
-              Student Success Stories
-            </h3>
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {successStories.map((story, index) => (
-                <div
-                  key={index}
-                  className="rounded-lg bg-gray-900 p-6 shadow-lg"
-                >
-                  <div className="mb-4 flex items-center gap-4">
-                    <img
-                      src={story.avatar || "/placeholder.svg"}
-                      alt={story.name}
-                      className="h-16 w-16 rounded-full object-cover"
-                    />
-                    <div>
-                      <h4 className="font-bold text-white">{story.name}</h4>
-                      <p className="text-amber-400">{story.course}</p>
-                    </div>
-                  </div>
-                  <p className="mb-4 italic text-gray-400">"{story.quote}"</p>
-                  {story.achievement && (
-                    <div className="rounded-md bg-gray-800 p-3">
-                      <p className="text-sm font-medium text-white">
-                        Achievement:
-                      </p>
-                      <p className="text-sm text-gray-400">
-                        {story.achievement}
-                      </p>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-
           <div className="mt-12 flex justify-center">
             <Link href="/#courses">
               <Button className="bg-amber-400 text-gray-900 hover:bg-amber-500">
