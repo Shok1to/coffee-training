@@ -497,7 +497,7 @@ const courses = [
     title: "Latte Art Fun Workshop",
     description:
       "Love coffee? Come play with milk and espresso! This casual, hands-on workshop is perfect for anyone who wants to try latte art and have a great time, no skills required.",
-    image: "/course-latte-art.jpg",
+    image: "/latteart.jpeg",
     price: 399,
   },
   {
@@ -550,9 +550,9 @@ const galleryImages = [
     student: "Sarah J.",
   },
   {
-    src: "/gallery/barista-training-1.jpg",
-    alt: "Espresso Training Session",
-    student: null,
+    src: "/Victor.jpg",
+    alt: "Tulip Latte Art",
+    student: "Victor G.",
   },
   {
     src: "/gallery/latte-art-4.png",
@@ -560,9 +560,9 @@ const galleryImages = [
     student: "David L.",
   },
   {
-    src: "/gallery/barista-training-2.jpg",
-    alt: "Milk Steaming Class",
-    student: null,
+    src: "/Jasmine.jpeg",
+    alt: "Swan Latte Art",
+    student: "Jasmine P.",
   },
   {
     src: "/gallery/latte-art-5.png",
