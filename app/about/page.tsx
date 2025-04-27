@@ -9,18 +9,10 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <Link href="/" className="flex items-center gap-2">
             <img
-              src="/coffee-bean-logo.png"
-              alt="Barista Blueprint Logo"
-              className="h-8 w-8"
+              src="/Shokolatte-small.png"
+              alt="Shokolatte Logo"
+              className="w-[200px] mt-6 drop-shadow-md"
             />
-            <div className="flex flex-col">
-              <span className="text-base font-bold uppercase tracking-wider text-white">
-                BARISTA BLUEPRINT
-              </span>
-              <span className="text-xs uppercase tracking-wider text-amber-400">
-                MASTER YOUR COFFEE SKILLS
-              </span>
-            </div>
           </Link>
         </div>
       </header>
@@ -110,65 +102,6 @@ export default function AboutPage() {
                 alt="Maria Alvarez, Founder"
                 className="w-full rounded-lg object-cover shadow-lg"
               />
-
-              <div className="rounded-lg bg-gray-900 p-6">
-                <h3 className="mb-4 text-2xl font-bold text-white">
-                  Meet Our Team
-                </h3>
-                <p className="mb-6 text-gray-400">
-                  Our instructors are award-winning coffee professionals with
-                  extensive experience in all aspects of the coffee industry.
-                  Each brings their unique expertise and perspective to our
-                  courses.
-                </p>
-                <div className="grid gap-6 sm:grid-cols-2">
-                  <div className="flex flex-col items-center">
-                    <img
-                      src="/serene-gaze.png"
-                      alt="Sarah Johnson"
-                      className="mb-3 h-24 w-24 rounded-full object-cover"
-                    />
-                    <h4 className="text-lg font-bold text-white">
-                      Sarah Johnson
-                    </h4>
-                    <p className="text-amber-400">Head Barista Trainer</p>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <img
-                      src="/thoughtful-gaze.png"
-                      alt="Michael Chen"
-                      className="mb-3 h-24 w-24 rounded-full object-cover"
-                    />
-                    <h4 className="text-lg font-bold text-white">
-                      Michael Chen
-                    </h4>
-                    <p className="text-amber-400">Roasting Specialist</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="rounded-lg bg-gray-900 p-6">
-                <h3 className="mb-4 text-2xl font-bold text-white">
-                  Our Facility
-                </h3>
-                <p className="mb-4 text-gray-400">
-                  Located in the heart of the city, our training center is
-                  equipped with top-of-the-line espresso machines, brewing
-                  equipment, and roasters. We've created a space that's both
-                  functional for learning and inspiring for creativity.
-                </p>
-                <img
-                  src="/coffee-equipment.png"
-                  alt="Barista Blueprint Training Facility"
-                  className="mb-4 w-full rounded-lg object-cover"
-                />
-                <p className="text-gray-400">
-                  With dedicated areas for espresso preparation, manual brewing,
-                  cupping, and roasting, our facility allows students to gain
-                  hands-on experience with every aspect of coffee production and
-                  service.
-                </p>
-              </div>
             </div>
           </div>
 

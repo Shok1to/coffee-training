@@ -9,18 +9,11 @@ export default function GalleryPage() {
         <div className="container mx-auto px-4">
           <Link href="/" className="flex items-center gap-2">
             <img
-              src="/coffee-bean-logo.png"
-              alt="Barista Blueprint Logo"
-              className="h-8 w-8"
+              src="/Shokolatte-small.png"
+              alt="Shokolatte Logo"
+              className="w-[200px] mt-6 drop-shadow-md"
             />
-            <div className="flex flex-col">
-              <span className="text-base font-bold uppercase tracking-wider text-white">
-                BARISTA BLUEPRINT
-              </span>
-              <span className="text-xs uppercase tracking-wider text-amber-400">
-                MASTER YOUR COFFEE SKILLS
-              </span>
-            </div>
+            <div className="flex flex-col"></div>
           </Link>
         </div>
       </header>
@@ -50,14 +43,10 @@ export default function GalleryPage() {
           </div>
 
           <div className="mb-12 max-w-3xl">
-            <h2 className="mb-4 text-3xl font-bold text-white">
-              Student Showcase
-            </h2>
             <p className="text-gray-400">
-              Our students create amazing coffee art and master professional
-              techniques. Here's an expanded showcase of their work and training
-              sessions. We're proud of the skills our students develop during
-              their time with us.
+              From first pours to beautiful designs, our students grow their
+              skills one cup at a time. Take a look at the amazing art created
+              during our hands-on workshops.
             </p>
           </div>
 
@@ -101,7 +90,7 @@ export default function GalleryPage() {
       <footer className="bg-black py-8 text-white">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm text-gray-500">
-            © 2023 Barista Blueprint. All rights reserved.
+            © 2025 Shokolatte. All rights reserved.
           </p>
         </div>
       </footer>

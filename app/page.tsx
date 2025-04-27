@@ -122,8 +122,8 @@ export default function Home() {
             </h1>
             <div className="h-1 w-16 bg-amber-400"></div>
             <p className="mt-8 max-w-2xl text-lg text-gray-300">
-              Master your coffee skills, whether you&apos;re a barista or just a
-              coffee fan.
+              Coffee skills for everyone — baristas, coffee lovers, and
+              dreamers.
             </p>
           </div>
         </section>
@@ -192,19 +192,31 @@ export default function Home() {
                 <div className="mt-8 space-y-4 text-gray-400">
                   <p>
                     Shokolatte was founded by a passionate coffee professional
-                    with over 10 years of experience in the specialty coffee
-                    industry.
+                    with nearly 10 years of hands-on experience in the specialty
+                    coffee world.
                   </p>
                   <p>
-                    My mission is to provide comprehensive, hands-on training
-                    for anyone looking to elevate their coffee skills, from home
-                    enthusiasts to professional baristas.
+                    My coffee journey began in 2016, when I met my mentor while
+                    working as a barista. Without his guidance, I wouldn’t be
+                    where I am today. I believe that who you learn from shapes
+                    your skills and passion more than how long you've been
+                    making coffee.
                   </p>
                   <p>
-                    I believe that great coffee is a craft that combines
-                    science, art, and passion. My courses are designed to give
-                    you the knowledge and practical skills needed to master this
-                    craft.
+                    Over the years, I've worked as a café manager, a company
+                    barista trainer, and have trained countless baristas. I also
+                    traveled to New Zealand to train at La Marzocco, one of the
+                    world’s leading espresso machine makers.
+                  </p>
+                  <p>
+                    My mission is simple: to pass on real-world, hands-on skills
+                    that help you grow with confidence — whether you're just
+                    starting out or refining your craft.
+                  </p>
+
+                  <p>
+                    Great coffee is built on passion, precision, and the right
+                    guidance — and I’m excited to share that journey with you.
                   </p>
                 </div>
                 <Link href="/about">
@@ -230,16 +242,16 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="mb-16 text-center">
               <span className="font-serif text-xl italic text-amber-400">
-                Student Showcase
+                No Experience Needed
               </span>
               <h2 className="mt-2 text-4xl font-bold uppercase tracking-wider text-white">
-                STUDENT GALLERY
+                Your Coffee Journey Starts Here
               </h2>
               <div className="mx-auto mt-4 h-1 w-16 bg-amber-400"></div>
               <p className="mx-auto mt-6 max-w-2xl text-gray-400">
-                Our students create amazing coffee art and master professional
-                techniques. Here's a showcase of their work and training
-                sessions.
+                Whether you're picking up a milk pitcher for the first time or
+                perfecting your pour, our workshops are a relaxed space to
+                learn, laugh, and create amazing latte art.
               </p>
             </div>
 
