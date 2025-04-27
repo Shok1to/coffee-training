@@ -313,11 +313,6 @@ export default function Home() {
                     &quot;{testimonial.quote}&quot;
                   </p>
                   <div className="flex items-center">
-                    <img
-                      src={testimonial.avatar || "/placeholder.svg"}
-                      alt={testimonial.name}
-                      className="mr-4 h-12 w-12 rounded-full object-cover"
-                    />
                     <div>
                       <h4 className="font-bold text-white">
                         {testimonial.name}
@@ -513,21 +508,18 @@ const testimonials = [
   {
     name: "Sagun",
     role: "Café Owner",
-    avatar: "/serene-gaze.png",
     quote:
       "The training I received at Shokolatte completely transformed my coffee skills. The hands-on approach and expert instruction gave me the confidence to excel in my own café.",
   },
   {
     name: "Beatrice",
     role: "Home Enthusiast",
-    avatar: "/thoughtful-gaze.png",
     quote:
       "After completing the barista fundamentals course, I can now make café-quality coffee at home. The techniques I learned have completely changed my morning routine.",
   },
   {
     name: "Nicole",
     role: "Aspiring Barista",
-    avatar: "/serene-latina.png",
     quote:
       "The Latte Art course was incredible! I went from barely being able to steam milk to creating beautiful designs. Now I'm working at my first barista job thanks to these skills.",
   },
