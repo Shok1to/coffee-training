@@ -19,10 +19,17 @@ export default function AboutPage() {
 
       <main className="flex-1">
         <div className="relative h-[40vh] w-full">
+          {/* Desktop Image */}
           <img
             src="/about.png"
             alt="Coffee Beans"
-            className="h-full w-full object-cover"
+            className="hidden md:block h-full w-full object-cover"
+          />
+          {/* Mobile Image */}
+          <img
+            src="/about-m.png"
+            alt="Coffee Beans Mobile"
+            className="block md:hidden h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-black/60"></div>
           <div className="absolute inset-0 flex items-center justify-center">
@@ -32,6 +39,7 @@ export default function AboutPage() {
           </div>
         </div>
 
+        {/* Other page content */}
         <div className="container mx-auto px-4 py-12">
           <div className="mb-8 flex items-center gap-2">
             <Link href="/" className="text-amber-400 hover:underline">
