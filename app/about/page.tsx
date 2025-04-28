@@ -20,7 +20,7 @@ export default function AboutPage() {
       <main className="flex-1">
         <div className="relative h-[40vh] w-full">
           <img
-            src="/dark-coffee-bean-pile.png"
+            src="/about.png"
             alt="Coffee Beans"
             className="h-full w-full object-cover"
           />
