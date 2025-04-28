@@ -78,7 +78,7 @@ export default function GalleryPage() {
           </div>
 
           <div className="mt-12 flex justify-center">
-            <Link href="/#courses">
+            <Link href="/#training">
               <Button className="bg-amber-400 text-gray-900 hover:bg-amber-500">
                 Explore Our Courses
               </Button>

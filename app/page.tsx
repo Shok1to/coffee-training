@@ -128,7 +128,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="courses" className="bg-gray-900 py-20">
+        <section id="training" className="bg-gray-900 py-20">
           <div className="container mx-auto px-4">
             <div className="mb-16 text-center">
               <span className="font-serif text-xl italic text-amber-400">
