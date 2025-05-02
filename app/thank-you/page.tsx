@@ -4,7 +4,7 @@ export default function ThankYouPage() {
       <img
         src="/Shokolatte-small.png"
         alt="Shokolatte Logo"
-        className="h-42 md:h-58"
+        className="h-41 md:h-57"
       />
       <h1 className="mt-0 mb-4 text-4xl font-bold text-amber-400">
         Thank You!
