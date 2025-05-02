@@ -7,7 +7,7 @@ export default function ThankYouPage() {
         className="mb-4 h-40 md:h-56"
       />
       <h1 className="mb-4 text-4xl font-bold text-amber-400">Thank You!</h1>
-      <p className="mb-8 max-w-md text-gray-300">
+      <p className="mb-4 max-w-md text-gray-300">
         Your message has been sent. We’ll be in touch soon!
       </p>
       <a
