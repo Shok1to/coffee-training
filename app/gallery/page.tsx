@@ -178,7 +178,7 @@ const successStories = [
   {
     name: "Emma Rodriguez",
     avatar: "/serene-latina.png",
-    course: "Latte Art Mastery",
+    course: "Latte Art Fun Workshop",
     quote:
       "The Latte Art course was incredible! I went from barely being able to steam milk to creating beautiful designs. Now I'm working at my first barista job thanks to these skills.",
     achievement: "Won 3rd place in the Regional Latte Art Championship",
@@ -195,7 +195,7 @@ const successStories = [
   {
     name: "Sarah Johnson",
     avatar: "/restaurant.jpeg",
-    course: "Barista Fundamentals",
+    course: "Barista Training for Café & Restaurant",
     quote:
       "The training I received at Barista Blueprint completely transformed my coffee skills. The hands-on approach and expert instruction gave me the confidence to excel.",
     achievement:
