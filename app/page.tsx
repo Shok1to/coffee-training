@@ -353,7 +353,19 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <div className="w-full max-w-2xl">
-                <form className="space-y-6">
+                <form
+                  action="https://formsubmit.co/info@shokolatte.ca"
+                  method="POST"
+                  className="space-y-6"
+                >
+                  {/* Disable CAPTCHA and set thank-you page */}
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://shokolatte.ca/thank-you"
+                  />
+
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
                       <label
@@ -365,6 +377,8 @@ export default function Home() {
                       <input
                         type="text"
                         id="name"
+                        name="name"
+                        required
                         className="w-full rounded-md border border-gray-700 bg-gray-800 p-3 text-white placeholder-gray-500 focus:border-amber-400 focus:outline-none"
                         placeholder="Your name"
                       />
@@ -379,6 +393,8 @@ export default function Home() {
                       <input
                         type="email"
                         id="email"
+                        name="email"
+                        required
                         className="w-full rounded-md border border-gray-700 bg-gray-800 p-3 text-white placeholder-gray-500 focus:border-amber-400 focus:outline-none"
                         placeholder="Your email"
                       />
@@ -394,6 +410,7 @@ export default function Home() {
                     <input
                       type="text"
                       id="subject"
+                      name="subject"
                       className="w-full rounded-md border border-gray-700 bg-gray-800 p-3 text-white placeholder-gray-500 focus:border-amber-400 focus:outline-none"
                       placeholder="Subject"
                     />
@@ -407,14 +424,19 @@ export default function Home() {
                     </label>
                     <textarea
                       id="message"
+                      name="message"
                       rows={6}
+                      required
                       className="w-full rounded-md border border-gray-700 bg-gray-800 p-3 text-white placeholder-gray-500 focus:border-amber-400 focus:outline-none"
                       placeholder="Your message"
                     ></textarea>
                   </div>
-                  <Button className="w-full bg-amber-400 text-gray-900 hover:bg-amber-500">
+                  <button
+                    type="submit"
+                    className="w-full rounded-md bg-amber-400 py-3 px-4 font-semibold text-gray-900 hover:bg-amber-500"
+                  >
                     Send Message
-                  </Button>
+                  </button>
                 </form>
               </div>
             </div>
