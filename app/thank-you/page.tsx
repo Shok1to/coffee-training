@@ -2,7 +2,7 @@ export default function ThankYouPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-950 text-center px-4">
       <img
-        src="/Shokolatte-small.png"
+        src="/shokolatte.png"
         alt="Shokolatte Logo"
         className="h-41 md:h-57"
       />
