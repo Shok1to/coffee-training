@@ -4,7 +4,7 @@ export default function ThankYouPage() {
       <img
         src="/Shokolatte-small.png"
         alt="Shokolatte Logo"
-        className="mb-6 h-14 w-14"
+        className="w-[200px] mt-6 drop-shadow-md"
       />
 
       <h1 className="mb-4 text-4xl font-bold text-amber-400">Thank You!</h1>
@@ -13,7 +13,7 @@ export default function ThankYouPage() {
       </p>
 
       <img
-        src="/course-latte-art.jpg"
+        src="/latte-art-pouring.jpg"
         alt="Latte Art"
         className="mb-8 w-full max-w-md rounded-lg shadow-lg"
       />
