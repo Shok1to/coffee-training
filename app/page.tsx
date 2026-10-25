@@ -354,12 +354,20 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="w-full max-w-2xl">
                 <form
-                  action="https://formsubmit.co/info@shokolatte.ca"
+                  action="https://formsubmit.co/17812770220e61a4882f4fa4a42fc8e2"
                   method="POST"
                   className="space-y-6"
                 >
-                  {/* Disable CAPTCHA and set thank-you page */}
-                  <input type="hidden" name="_captcha" value="false" />
+                  {/* Set thank-you page (CAPTCHA left on) */}
+                  {/* Honeypot: hidden from people, filled in by bots */}
+                  <input
+                    type="text"
+                    name="_honey"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    aria-hidden="true"
+                    style={{ display: "none" }}
+                  />
                   <input
                     type="hidden"
                     name="_next"
